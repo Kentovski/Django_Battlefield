@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Battlefield
+{% endblock %}
+
+{% block content %}
+    <h1>Battlefield</h1>
+    <form action="result" method="POST">
+        {% csrf_token %}
+        <label>Please enter the number of the armies
+            <input name="armies_num" type="number" min="2" max="10">
+        </label><br>
+        <button type="submit">FIGHT</button>
+    </form>
+{% endblock %}

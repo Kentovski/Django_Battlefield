@@ -1,1 +1,3 @@
-# Django_Battlefield
+# Django Battlefield
+
+Выполнил: Мельников Илья
